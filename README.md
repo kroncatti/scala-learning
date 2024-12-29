@@ -4,6 +4,8 @@ Welcome to my **Scala Learning Project**! 🎉 This project contains Scala exerc
 
 ## 🗂️ Project Structure
 
-- **Functional Programming in Scala** 📚 - Basics and Fundamentals
+##### **Functional Programming in Scala** 📚
+
+- functionalScala: 
     - week1 🌱 - Introduction to Scala
     - week2 🔢 - Working with High Order functions
