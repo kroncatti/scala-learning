@@ -40,6 +40,7 @@
 /src/intellij*/*.iws
 **/.cache
 /.idea
+*/.idea
 /.settings
 
 # vscode
@@ -69,3 +70,7 @@ project/**/metals.sbt
 
 .bsp
 .history
+
+# Newly project structure
+/*/project/*
+/*/target/*
