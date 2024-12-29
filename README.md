@@ -4,7 +4,7 @@ Welcome to my **Scala Learning Project**! 🎉 This project contains Scala exerc
 
 ## 🗂️ Project Structure
 
-##### **Functional Programming in Scala** 📚
+##### [**Functional Programming in Scala** - Martin Odersky](https://www.youtube.com/watch?v=BDU7bae68-Q) 📚
 
 - functionalScala: 
     - week1 🌱 - Introduction to Scala
