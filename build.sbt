@@ -2,12 +2,12 @@ lazy val root = (project in file("."))
   .aggregate(functionalScala) // All courses in here
   .settings(
     name := "ScalaLearning",
-    scalaVersion := "3.3.0" // Default Scala version for shared tasks
+    scalaVersion := "3.3.4" // Default Scala version for shared tasks
   )
 
-// Course 1 Subproject
-lazy val functionalScala = (project in file("functional-scala"))
+// Subproject 1
+lazy val functionalScala = (project in file("functionalScala"))
   .settings(
     name := "FunctionalScala",
-    scalaVersion := "3.3.0", // Scala version for FunctionalScala specifically
+    scalaVersion := "3.3.4", // Scala version for FunctionalScala specifically
   )
