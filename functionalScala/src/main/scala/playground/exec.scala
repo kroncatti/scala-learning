@@ -1,6 +1,6 @@
 package playground
 
-import algorithms.mergeSort
+import algorithmsCourse.course1.mergeSort
 
 object exec extends App {
   val sorted = mergeSort.mergeSort(Array(10, 15, 0, 2, 15))
