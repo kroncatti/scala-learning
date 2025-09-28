@@ -1,4 +1,4 @@
-package algorithmsCourse.course1
+package algorithmsSpecialization.course1
 
 object mergeSort extends App {
   private def mergePreSortedArrays(a: Array[Int], b: Array[Int]): Array[Int] =
