@@ -1,7 +1,7 @@
 package algorithmsSpecialization.course1
 
 object mergeSort extends App {
-  private def mergePreSortedArrays(a: Array[Int], b: Array[Int]): Array[Int] =
+  private def mergePreSortedArrays(a: Array[Int], b: Array[Int]): Array[Int] = {
     val respArray = new Array[Int](a.length + b.length)
     var i = 0
     var j = 0
@@ -30,6 +30,7 @@ object mergeSort extends App {
       k += 1
     }
     respArray
+  }
 
   def mergeSort(array: Array[Int]): Array[Int] = {
     val mid = array.length / 2
