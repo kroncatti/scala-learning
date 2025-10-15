@@ -1,4 +1,5 @@
-package week2
+package fpPrinciplesCourse.week2
+
 
 import scala.annotation.tailrec
 

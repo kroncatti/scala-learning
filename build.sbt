@@ -1,5 +1,5 @@
 lazy val root = (project in file("."))
-  .aggregate(functionalScala) // All courses in here
+  .aggregate(functionalScala, catsEffects) // All projects in here
   .settings(
     name := "ScalaLearning",
     scalaVersion := "2.13.17" // Default Scala version for shared tasks
@@ -7,6 +7,14 @@ lazy val root = (project in file("."))
 
 // Subproject 1
 lazy val functionalScala = (project in file("FunctionalScala"))
+  .settings(
+    name := "FunctionalScala",
+    scalaVersion := "3.7.3", // Scala version for FunctionalScala specifically
+    scalacOptions += "-Wnonunit-statement"
+  )
+
+// Subproject 2
+lazy val catsEffects = (project in file("CatsEffects"))
   .settings(
     name := "FunctionalScala",
     scalaVersion := "2.13.17", // Scala version for FunctionalScala specifically

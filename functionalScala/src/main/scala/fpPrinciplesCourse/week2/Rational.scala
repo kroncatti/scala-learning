@@ -1,4 +1,4 @@
-package week2
+package fpPrinciplesCourse.week2
 
 // Playing around with objects
 
